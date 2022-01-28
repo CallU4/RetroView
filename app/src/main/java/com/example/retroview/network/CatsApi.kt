@@ -6,5 +6,5 @@ import retrofit2.http.GET
 interface CatsApi {
 
     @GET("/fact")
-    suspend fun getFact(): List<Fact>
+    suspend fun getFact(): Fact
 }
